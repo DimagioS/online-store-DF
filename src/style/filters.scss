@@ -1,11 +1,5 @@
 @import "./variables.scss";
 
-form {
-  @media (max-width: 699px) {
-    // display: flex;
-  }
-}
-
 .form-control {
   margin-bottom: 1.25rem;
   h5 {
@@ -49,16 +43,6 @@ form {
       }
     }
   }
-
-  // @media (max-width: 699px) {
-  //   // width: 300px;
-  //   display: flex;
-  //   flex-wrap: wrap;
-
-  //   span {
-  //     margin-right: 20px;
-  //   }
-  // }
 }
 
 
@@ -99,19 +83,6 @@ form {
   }
 
 }
-
-// .first-block-filter {
-//   @media (max-width: 699px) {
-//     display: flex;
-//     align-items: center;
-//   }
-// }
-
-// .form-control-category {
-//   @media (max-width: 699px) {
-//     margin-left: 20px;
-//   }
-// }
 
 .color-btn-active {
   opacity: 0.9;

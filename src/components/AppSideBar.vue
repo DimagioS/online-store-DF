@@ -3,9 +3,6 @@
     <div class="sidebar-header">
       <div class="logo-container">
         <img src="../img/icons/Безимени-color.png" class="logo" alt="logo DF" />
-
-        <!-- <img src="../img/icons/logo.svg" class="logo" alt="coding addict" />
-          <img src="../img/icons/logo-sloth.jpg" class="sloth-logo" alt="sloth"> -->
       </div>
       <button class="close-btn" @click="$emit('close-sidebar')">
         <svg

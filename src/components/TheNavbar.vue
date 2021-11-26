@@ -8,9 +8,6 @@
             class="logo"
             alt="logo DF"
           />
-
-          <!-- <img src="../img/icons/logo.svg" class="logo" alt="comfy sloth"/>
-          <img src="../img/icons/logo-sloth.jpg" class="sloth-logo" alt="sloth"> -->
         </div>
         <div type="button" class="nav-toggle" @click="$emit('open-sidebar')">
           <svg

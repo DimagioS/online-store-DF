@@ -7,12 +7,6 @@
   justify-content: center;
   margin-bottom: 25px;
   padding: 1rem 1.5rem;
-  // background-color: white;
-  // position: fixed;
-  // top: 0;
-  // left: 0;
-  // right: 0;
-  // z-index: 50;
 }
 
 .nav-center {
@@ -35,10 +29,7 @@
   justify-content: space-between;
   .logo {
     width: 240px;
-    // margin-left: -15px;
-    // margin-right: 5px;
     position: relative;
-    // top: 5px;
     @media (max-width: 480px) {
       width: 200px;
     }
@@ -68,9 +59,6 @@
     text-transform: capitalize;
     letter-spacing: $spacing;
     padding: 0.5rem;
-    // &:hover {
-      // border-bottom: 2px solid $clr-primary-7;
-    // }
   }
 }
 
@@ -93,22 +81,7 @@
   align-items: center;
   margin-right: 30px;
   color: $clr-grey-1;
-  // &:after {
-  //   content: '';
-  //   position: absolute;
-  //   top: -10px;
-  //   right: -16px;
-  //   background: $clr-primary-5;
-  //   width: 16px;
-  //   height: 16px;
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   border-radius: 50%;
-  //   font-size: 0.75rem;
-  //   color: $clr-white;
-  //   padding: 12px;
-  // }
+
   span {
     margin-right: 5px;
   }

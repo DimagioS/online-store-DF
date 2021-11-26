@@ -36,7 +36,6 @@
   @media (max-width: 480px) {
     width: 200px;
   }
-  // height: 45px;
 }
 
 .links {
@@ -54,42 +53,12 @@
 
 }
 
-// li {
-//   a .active {
-//     position: relative;
-//     &::before {
-//       content: '';
-//       position: absolute;
-//       top: -30px;
-//       left: 0;
-//       height: 3px;
-//       width: 40px;
-//       background-color: $clr-grey-5;
-//     }
-//   }
-// }
-
 .links .active {
   position: relative;
   width: 140px;
     
   
 }
-
-// .active-link {
-//   &::after {
-//   content: '';
-//   position: relative;
-//   display: block;
-//   top: 7px;
-//   left: 0;
-//   height: 3px;
-//   width: 50px;
-//   background-color: $clr-primary-5;
-// }
-
-// }
-
 
 .links a:hover {
   padding-left: 2rem;
