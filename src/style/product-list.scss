@@ -1,0 +1,42 @@
+@import "./variables.scss";
+
+img {
+  width: 100%;
+  display: block;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: $radius;
+  margin-bottom: 1rem;
+
+  @media (max-width: 540px) {
+    width: 100%;
+  }
+}
+h4 {
+  margin-bottom: 8px;
+  font-size: 21px;
+}
+.price {
+  color: $clr-primary-6;
+  margin-bottom: 0.75rem;
+  font-size: 15px;
+}
+p {
+  // max-width: 45em;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+.btn {
+  font-size: 10px;
+  padding: 7px 12px;
+}
+@media (min-width: 992px) {
+  article {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    align-items: center;
+  }
+}

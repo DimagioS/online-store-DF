@@ -1,0 +1,121 @@
+@import "./variables.scss";
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+.close-btn {
+  cursor: pointer;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: $clr-primary-5;
+  transition: $transition;
+  color: $clr-red-dark;
+  margin-top: 0.2rem;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.logo {
+  margin-right: 5px;  
+}
+
+.close-btn:hover {
+  color: $clr-red-light;
+}
+
+.logo, .sloth-logo {
+  justify-self: center;
+  width: 240px;
+
+  @media (max-width: 480px) {
+    width: 200px;
+  }
+  // height: 45px;
+}
+
+.links {
+  margin-bottom: 2rem;
+}
+.links a {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 20px 1.5rem;
+  color: $clr-grey-3;
+  transition: $transition;
+  letter-spacing: spacing;
+
+}
+
+// li {
+//   a .active {
+//     position: relative;
+//     &::before {
+//       content: '';
+//       position: absolute;
+//       top: -30px;
+//       left: 0;
+//       height: 3px;
+//       width: 40px;
+//       background-color: $clr-grey-5;
+//     }
+//   }
+// }
+
+.links .active {
+  position: relative;
+  width: 140px;
+    
+  
+}
+
+// .active-link {
+//   &::after {
+//   content: '';
+//   position: relative;
+//   display: block;
+//   top: 7px;
+//   left: 0;
+//   height: 3px;
+//   width: 50px;
+//   background-color: $clr-primary-5;
+// }
+
+// }
+
+
+.links a:hover {
+  padding-left: 2rem;
+  background: $clr-grey-10;
+  color: $clr-grey-2;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $clr-white;
+  transition: all 0.15s linear;
+  transform: translate(-100%);
+  z-index: -1;
+}
+.show-sidebar {
+  transform: translate(0);
+  z-index: 999;
+}
+.cart-btn-wrapper {
+  margin: 2rem auto;
+}
+@media screen and (min-width: 992px) {
+  .sidebar {
+    display: none;
+  }
+}

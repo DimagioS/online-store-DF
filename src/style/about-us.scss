@@ -1,0 +1,71 @@
+@import "./variables.scss";
+
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0;
+
+  img {
+    width: 100%;
+    display: block;
+    border-radius: $radius;
+    height: 500px;
+    max-width: 500px;
+    object-fit: cover;
+    margin-right: 60px;
+  }
+  
+  p {
+    line-height: 2;
+    max-width: 45em;
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: $clr-grey-5;
+    font-size: 17px;
+  }
+
+  .title {
+    text-align: left;
+
+    h2 {
+      font-size: 39px;
+    }
+  }
+  
+  .underline {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1080px) {
+
+  .about-us {
+    flex-direction: column;    
+    padding: 70px 0;
+    img {
+      margin-bottom: 60px;
+      max-width: 100%;
+      margin-right: 00px;
+    }
+  }
+}
+
+@media (max-width: 776px) {
+  .about-us {
+    padding: 35px 0;
+
+    img {
+      margin-bottom: 40px;
+    }
+
+    .title {
+      h2 {
+        font-size: 35px;
+      }
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}
